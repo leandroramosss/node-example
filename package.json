@@ -4,7 +4,7 @@
   "description": "this is a test",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "babel-node index.js"
   },
   "author": "",
   "license": "ISC",
