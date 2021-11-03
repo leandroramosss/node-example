@@ -17,3 +17,7 @@ app.get('/smartphones',function(req,res){
 app.get('/tablets',function(req,res){
     res.send("Categoria de Tablets");
 });
+
+app.listen(5050,function(){
+    console.log("Servidor ativo no porto 8080");
+});
